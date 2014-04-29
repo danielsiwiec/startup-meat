@@ -3,7 +3,8 @@ name "base"
 run_list(
 	"recipe[apt]",
 	"recipe[rvm::system]",
-	"recipe[vim]"
+	"recipe[vim]",
+	"recipe[rake]"
 )
 
 default_attributes(
